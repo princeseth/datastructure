@@ -87,11 +87,11 @@ class AVL{
 
 public static void main(String[] args) {
       Avl avl = new Avl();
-      avl.root = avl.insert(avl.root, 50);
-        avl.root = avl.insert(avl.root, 60);
-        avl.root = avl.insert(avl.root, 70);
-        avl.root = avl.insert(avl.root, 80);
-        avl.root = avl.insert(avl.root, 90);
-        avl.root = avl.insert(avl.root, 65);
+      avl.root = avl.insertToAVL(avl.root, 50);
+        avl.root = avl.insertToAVL(avl.root, 60);
+        avl.root = avl.insertToAVL(avl.root, 70);
+        avl.root = avl.insertToAVL(avl.root, 80);
+        avl.root = avl.insertToAVL(avl.root, 90);
+        avl.root = avl.insertToAVL(avl.root, 65);
 
 }
